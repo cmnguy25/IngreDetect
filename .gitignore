@@ -1,0 +1,32 @@
+# ignores all .md files
+.md
+
+# does not ignore the README.md file
+!README.md
+
+# dependencies (/ folder and without / is a file)
+node_modules/
+.pnp/
+.pnp/
+.pnp.js
+
+# testing
+coverage/
+coverage
+
+# production
+build/
+
+#ignore all file starting with .env
+.env* 
+.env
+**/.DS_Store
+
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+npm-debug.log*/
+yarn-debug.log*/
+yarn-error.log*/
